@@ -25,12 +25,14 @@ CSS:
 - decorate page
 
 JS:
+- Specified point when the countdown is complete
 - How often to update countdown
 - The current date and time from year to second
-- Specified point when the countdown is complete
+- Create a time distance between future date and current date
 - Calculations of years, months, days, hours, minutes, seconds, milliseconds until countdown complete
 - Output the result in the element in the HTML
-- Countdown ends at zero
-    - create an output to signify countdown complete
+- If the Countdown becomes < 0 
+    - Then: stop countdown timer
+    - create an output in an HTML element to signify countdown complete
 
 Functions:
